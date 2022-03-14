@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ info.name }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ info.favicon }}">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{% static '/css/about_me.css' %}" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+{###################Header#######################}
+    <header class="header">
+        <div class="mainTitle">
+            <h1 class="name">{{ info.name }}</h1>
+            <h2 class="hello">{{ info.hello }}</h2>
+        </div>
+        <div class="contactWrapper">
+            <div class="contactInfo">
+                <p title="{{ info.phone }}">
+                    <a href="{{ info.phoneNum }}"><img src="{{ info.phonePic }}"></a>
+                </p>
+                <p title="{{ info.email }}">
+                    <a href="{{ info.emailLink }}"><img src="{{ info.emailPic }}"></a>
+                </p>
+                <p title="{{ info.gitHub }}">
+                    <a href="{{ info.gitHub }}" target="_blank"><img src="{{ info.gitHubPic }}"></a>
+                </p>
+                <p title="{{ info.linkedin }}">
+                    <a href="{{ info.linkedin }}" target="_blank"><img src="{{ info.linkedinPic }}"></a>
+                </p>
+            </div>
+            <img class="picMe" src="{% static '/img/me.jpg' %}">
+        </div>
+    </header>
+{#######################Finish Header############################}
+<div class="mainWrapper">
+<div class="history">
+    <h3>{{ work1.companyName }}</h3>
+    <h4>{{ work1.dates }}</h4>
+    <ul>
+        <li>{{ work1.task1 }}</li>
+        <li>{{ work1.task2 }}</li>
+        <li>{{ work1.task3 }}</li>
+        <li>{{ work1.task4 }}</li>
+    </ul>
+    <h3>{{ work2.companyName }}</h3>
+    <h4>{{ work2.dates }}</h4>
+    <ul>
+        <li>{{ work2.task1 }}</li>
+        <li>{{ work2.task2 }}</li>
+        <li>{{ work2.task3 }}</li>
+        <li>{{ work2.task4 }}</li>
+        <li>{{ work2.task5 }}</li>
+    </ul>
+    <h3>{{ work3.companyName }}</h3>
+    <h4>{{ work3.dates }}</h4>
+    <ul>
+        <li>{{ work3.task1 }}</li>
+        <li>{{ work3.task2 }}</li>
+        <li>{{ work3.task3 }}</li>
+        <li>{{ work3.task4 }}</li>
+        <li>{{ work3.task5 }}</li>
+    </ul>
+    <h3>{{ work4.companyName }}</h3>
+    <h4>{{ work4.dates }}</h4>
+    <ul>
+        <li>{{ work4.task1 }}</li>
+        <li>{{ work4.task2 }}</li>
+        <li>{{ work4.task3 }}</li>
+        <li>{{ work4.task4 }}</li>
+    </ul>
+</div>
+    <div class="skills">
+ {% autoescape off %}
+  {{ T_skills | safe }}
+          {{ S_skills | safe }}
+  {{ M_skills | safe }}
+
+
+  {% endautoescape %}
+    </div>
+</div>
+</body>
+</html>
