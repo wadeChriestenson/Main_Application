@@ -9,6 +9,18 @@ to install all required packages.
 ```bash
 pip install -r requirements.txt
 ```
+## ***Requirments.txt***
+- asgiref==3.5.0
+- Django==4.0.3
+- numpy==1.22.3
+- pandas==1.4.1
+- plotly==5.6.0
+- python-dateutil==2.8.2
+- pytz==2021.3
+- six==1.16.0
+- sqlparse==0.4.2
+- tenacity==8.0.1
+- tzdata==2021.5
 ## ***Base_App*** - Backend Directory
 - __init__.py
 - asgi.py - (used for server setting)
