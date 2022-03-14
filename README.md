@@ -2,7 +2,7 @@
 - Language - Python
 - Framework - Django
 ## Purpose of Application 
-- **Host the resume of Wade Chriestenson**
+- **Resume of Wade Chriestenson**
 ## Installation
 Use the package manage [pip](https://pip.pypa.io/en/stable/) to install requirements.txt file 
 to install all required packages.
