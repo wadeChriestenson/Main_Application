@@ -40,6 +40,7 @@ pip install -r requirements.txt
 - forms.py - (used for createing forms to render to HTML)
 ## ***Templates*** - HTML Directory
 - Holds all HTML files for application
+- About-me.HTML
 ## ***manage.py*** - used to run django app
 Use command below to run server on local host to view site in action.
 ```bash
