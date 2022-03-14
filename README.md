@@ -1,4 +1,2 @@
-# Base_App - Full apllication
-**Django Application**
-## Purpose of Application
-**Host the resume of Wade Chriestenson**
+# Base_App - **Full Django Application**
+## Purpose of Application - **Host the resume of Wade Chriestenson**
