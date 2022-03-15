@@ -21,6 +21,8 @@ pip install -r requirements.txt
 - sqlparse==0.4.2
 - tenacity==8.0.1
 - tzdata==2021.5
+## ***.gitignore***
+- /venv (ignore virtual enviroment directory)
 ## ***Base_App*** - Backend Directory
 - __init__.py
 - asgi.py - (used for server setting)
