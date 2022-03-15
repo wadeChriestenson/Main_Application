@@ -50,7 +50,7 @@ def about_me(request):
     work4 = {
         'companyName': 'Excel Industries',
         'dates': 'May 2013 to July 2018',
-        'task1': 'Fabrication experience- Roller, Folding Table, Trump Laser, ATC Amada Brake Press, and Amada Brake Press. Creation of Standards, Safety, and Preventive Maintenance in Fabrication.',
+        'task1': 'Fabrication experience- Roller, Folding Table, Triumph Laser, ATC Amada Brake Press, and Amada Brake Press. Creation of Standards, Safety, and Preventive Maintenance in Fabrication.',
         'task2': 'Weld Experience- Tack Jig Welder, Robot Welder, and grinder. Checking quality of welds to prints. Creation of standards, safety, and preventive maintenance in weld cells.',
         'task3': 'Assembly- Follow prints to build specific units. Read and follow standards. Adhere to all safety rules and regulations.',
         'task4': 'Lead- Delegating task to floor employees. Communication with all departments to create units per schedule. Safety and Quality Audits in cells per value stream.',
