@@ -9,8 +9,7 @@ to install all required packages.
 ```bash
 pip install -r requirements.txt
 ```
-##
-## ***Requirments.txt***
+***Requirments.txt***
 - asgiref==3.5.0
 - Django==4.0.3
 - plotly==5.6.0
