@@ -19,6 +19,14 @@ def about_me(request):
         'phone': '620 869-5907',
         'phonePic': 'https://raw.githubusercontent.com/wadeChriestenson/Resume/main/assets/img/phone.png',
     }
+    theWhy = {
+        '1': 'Critical Thinking - I Must',
+        '2': 'Problem Solving - Out of Necessity',
+        '3': 'Self Taught - with a Keyboard',
+        '4': 'Intermediate Googler',
+        '5': 'Team Focused',
+        '6': 'I find the Solution'
+    }
     work1 = {
         'companyName': 'Vision Plastics',
         'dates': 'Dec 2020 to Present',
@@ -110,14 +118,18 @@ def about_me(request):
                              tickfont_size=14,
                          ))
     S_skills = S_plot.to_html()
+    interest = {
+        '1': ''
+    }
 
-    return render(request, 'about-me.html', {'info': info,
-                                             'work1': work1,
-                                             'work2': work2,
-                                             'work3': work3,
-                                             'work4': work4,
-                                             'T_skills': T_skills,
-                                             'M_skills': M_skills,
-                                             'S_skills': S_skills
-
-                                             })
+    return render(request, 'about-me.html', {
+        'info': info,
+        "theWhy": theWhy,
+        'work1': work1,
+        'work2': work2,
+        'work3': work3,
+        'work4': work4,
+        'T_skills': T_skills,
+        'M_skills': M_skills,
+        'S_skills': S_skills
+    })
