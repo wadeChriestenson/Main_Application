@@ -18,6 +18,8 @@ pip install -r requirements.txt
 - tenacity==8.0.1
 ## ***.gitignore***
 - /venv (ignore virtual enviroment directory)
+- Base_App/setting.py (config file)
+- /manage.py (main run file)
 ## ***Base_App*** - Backend Directory
 - __init__.py
 - asgi.py - (used for server setting)
