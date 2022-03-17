@@ -94,7 +94,8 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 85vw;
+    margin-left: 7.5vw;
     background: -webkit-linear-gradient(#221F1F, #111111);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

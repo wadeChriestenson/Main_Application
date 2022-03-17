@@ -1,2 +1,4 @@
 # ignore virtual env
 /venv
+Base_App/settings.py
+/manage.py

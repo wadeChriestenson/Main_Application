@@ -20,12 +20,12 @@ def about_me(request):
         'phonePic': 'https://raw.githubusercontent.com/wadeChriestenson/Resume/main/assets/img/phone.png',
     }
     theWhy = {
-        '1': 'Critical Thinking - I Must',
-        '2': 'Problem Solving - Out of Necessity',
-        '3': 'Self Taught - with a Keyboard',
+        '1': 'Critical Thinker',
+        '2': 'Problem Solving',
+        '3': 'Self Taught/Motivated',
         '4': 'Intermediate Googler',
         '5': 'Team Focused',
-        '6': 'I find the Solution'
+        '6': 'Goal Oriented'
     }
     work1 = {
         'companyName': 'Vision Plastics',
