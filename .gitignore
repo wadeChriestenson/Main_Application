@@ -1,4 +1,5 @@
 # ignore virtual env
+# Author - Wade Chriestenson
 /venv
 Base_App/settings.py
 /manage.py

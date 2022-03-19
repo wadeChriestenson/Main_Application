@@ -1,3 +1,4 @@
+# Author - Wade Chriestenson
 Django==4.0.3
 asgiref==3.5.0
 plotly==5.6.0
