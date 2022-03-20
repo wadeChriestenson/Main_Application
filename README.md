@@ -1,4 +1,4 @@
-# Main_Application https://wadechriestenson.github.io/Main_Application/
+# Main_Application https://resumewade.herokuapp.com/
 - Language - Python
 - Framework - Django
 ## Purpose of Application 
