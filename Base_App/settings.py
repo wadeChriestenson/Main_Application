@@ -119,7 +119,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
+# Needed for development ion IDE
 STATIC_URL = 'static/'
+# Needed for production deployment
 STATIC_ROOT = "Resume/static"
 
 # Default primary key field type
