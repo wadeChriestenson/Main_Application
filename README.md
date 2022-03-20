@@ -2,8 +2,8 @@
 https://resumewade.herokuapp.com/
 - Language - Python
 - Framework - Django
-## Purpose of Application 
-- **Resume of Wade Chriestenson**
+## Description of Application 
+- **Django Application Hosted on Heroku Displaying the Resume of Wade Chriestenson**
 ## Installation
 Use the package manage [pip](https://pip.pypa.io/en/stable/) to install requirements.txt file 
 to install all required packages.
@@ -21,12 +21,16 @@ pip install -r requirements.txt
 - /venv (ignore virtual enviroment directory)
 - Base_App/setting.py (config file)
 - /manage.py (main run file)
+## ***Procfile***
+- .txt file to tell Heroku what type of app and where the app entry point is.
 ## ***Base_App*** - Backend Directory
 - __init__.py
 - asgi.py - (used for server setting)
 - setting.py - (used for the full app settings, security, middleware, static directories, etc..)
 - url.py - (used for routing back-end urls) - only has admin panel and front-end urls
 - wsgi.py - (used for more server settings)
+## ***_config.yml***
+- Config file for github-pages. ( themes and config for host)
 ## ***Resume*** - Front-End Directory
 - __init__.py
 - admin.py - (set admin settings for django admin panel)- not in use
