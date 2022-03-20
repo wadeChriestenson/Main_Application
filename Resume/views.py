@@ -122,8 +122,11 @@ def about_me(request):
                          ))
     S_skills = S_plot.to_html()
     interest = {
-        '1': ''
-    }
+        '1': 'Family Time',
+        '2': 'Car Enthusiast - JDM',
+        '3': 'Data Visualization',
+        '4': 'Skateboarding',
+       }
 
     return render(request, 'about-me.html', {
         'info': info,
@@ -134,5 +137,6 @@ def about_me(request):
         'work4': work4,
         'T_skills': T_skills,
         'M_skills': M_skills,
-        'S_skills': S_skills
+        'S_skills': S_skills,
+        'interest': interest
     })

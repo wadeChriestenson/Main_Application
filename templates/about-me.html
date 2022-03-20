@@ -37,6 +37,8 @@
         </div>
     </header>
 {#######################Finish Header############################}
+<div class="mainWhy">
+    <h4 class="traits">Traits</h4>
 <div class="whyWrap">
         <h5 class="'why">{{ theWhy.1 }}</h5>
         <h5 class="'why">{{ theWhy.2 }}</h5>
@@ -44,6 +46,7 @@
         <h5 class="'why">{{ theWhy.4 }}</h5>
         <h5 class="'why">{{ theWhy.5 }}</h5>
         <h5 class="'why">{{ theWhy.6 }}</h5>
+</div>
 </div>
 <div class="mainWrapper">
 <div class="history">
@@ -87,9 +90,16 @@
   {{ T_skills | safe }}
           {{ S_skills | safe }}
   {{ M_skills | safe }}
-
-
-  {% endautoescape %}
+ {% endautoescape %}
+    </div>
+</div>
+<div class="interest">
+    <h4 class="hobbies">Hobbies</h4>
+    <div class="intWrap">
+    <h5>{{ interest.1 }}</h5>
+    <h5>{{ interest.2 }}</h5>
+    <h5>{{ interest.3 }}</h5>
+    <h5>{{ interest.4 }}</h5>
     </div>
 </div>
 </body>
