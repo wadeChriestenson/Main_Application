@@ -121,6 +121,12 @@ def about_me(request):
                              tickfont_size=14,
                          ))
     S_skills = S_plot.to_html()
+    learnAbout = {
+        'phone': '620 869-5907',
+        'email': 'wadechriestenson@gmail.com',
+        'gitHub': 'https://github.com/wadeChriestenson',
+        'linkedin': 'https://www.linkedin.com/in/wadechriestenson/',
+    }
     interest = {
         '1': 'Family Time',
         '2': 'Car Enthusiast - JDM',
@@ -138,5 +144,6 @@ def about_me(request):
         'T_skills': T_skills,
         'M_skills': M_skills,
         'S_skills': S_skills,
+        'learnAbout': learnAbout,
         'interest': interest
     })

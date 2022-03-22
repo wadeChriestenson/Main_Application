@@ -18,7 +18,7 @@
     <title>{{ info.name }}</title>
     <link rel="icon" type="image/x-icon" href="{{ info.favicon }}">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="{% static '/css/aboutme.css' %}" rel="stylesheet">
+    <link href="{% static '/css/aboutme1-1.css' %}" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -103,6 +103,13 @@
           {{ S_skills | safe }}
   {{ M_skills | safe }}
  {% endautoescape %}
+    <div class="learnAbout">
+        <h4 class="learn">Learn About Me</h4>
+        <h5 class="i">Phone: {{ learnAbout.phone }}</h5>
+        <h5 class="i">Email: {{ learnAbout.email }}</h5>
+        <h5 class="i">GitHub: {{ learnAbout.gitHub }}</h5>
+        <h5 class="i">Linkedin: {{ learnAbout.linkedin }}</h5>
+    </div>
     </div>
 </div>
 <div class="interest">

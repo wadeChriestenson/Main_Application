@@ -103,7 +103,7 @@ h3, h4, h5, li{
     width: 100vw;
 }
 .traits{
-    margin-bottom: -15px;
+    /*margin-bottom: -15px;*/
             background: -webkit-linear-gradient(#221F1F, #111111);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -123,14 +123,37 @@ li{
     padding: 5px;
     font-size: 18px;
 }
+.history{
+        display: flex;
+    flex-direction: column;
+    width: 60%;
+}
 .skills{
     display: flex;
     flex-direction: column;
+    width: 40%;
+    padding: -5px;
+}
+.learnAbout{
+        display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 75%;
+    margin-left: 12.5%;
+}
+.learn{
+    text-align: center;
+}
+.i{
+    margin-top: -15px;
+    text-align: left;
 }
 .interest{
     display: flex;
     flex-direction: column;
     width: 100vw;
+    margin-top: 15px;
+
 }
 .hobbies{
         background: -webkit-linear-gradient(#221F1F, #111111);
@@ -146,4 +169,5 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+        border-top: 1px solid black;
 }
