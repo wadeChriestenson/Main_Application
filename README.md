@@ -13,10 +13,13 @@ pip install -r requirements.txt
 ***Requirments.txt***
 - asgiref==3.5.0
 - Django==4.0.3
+- django-heroku==0.3.1
+- gunicorn==20.1.0
 - plotly==5.6.0
 - six==1.16.0
-- sqlparse==0.4.2
 - tenacity==8.0.1
+- tzdata==2022.1
+whitenoise==6.0.0
 ## ***.gitignore***
 - /venv (ignore virtual enviroment directory)
 - Base_App/setting.py (config file)
