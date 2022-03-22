@@ -13,7 +13,7 @@ body{
                 display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: -20vw;
+        /*margin-left: -20vw;*/
 }
 .name{
     background: -webkit-linear-gradient(#221F1F, #111111);
