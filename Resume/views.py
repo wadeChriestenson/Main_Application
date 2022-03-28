@@ -33,6 +33,7 @@ def about_me(request):
     work1 = {
         'companyName': 'Vision Plastics',
         'dates': 'Dec 2020 to Present',
+        'role': 'Manufacturing Engineer Technician',
         'task1': 'Create or update standard work for assembly department using the corporate ERP.',
         'task2': 'Setup machine per MESI documents(sonic welders, CNC, drill presses, heat stakers, etc..)',
         'task3': 'Problem Solve and Trouble shot defects caused by operators or machinery in assembly.',
@@ -41,6 +42,7 @@ def about_me(request):
     work2 = {
         'companyName': 'Pioneer Truck Weld',
         'dates': 'Sep 2020 to Dec 2020',
+        'role': 'Brake Press Op',
         'task1': 'Brake Press Operator- Run and maintain presses. ',
         'task2': 'Form parts to prints and assure all parts meet quality standard. ',
         'task3': 'Plasma Table- Cut flat metal parts to desired measurements. ',
@@ -50,6 +52,7 @@ def about_me(request):
     work3 = {
         'companyName': 'ATI',
         'dates': 'Aug 2018 to July 2020',
+        'role': 'Blend Specialist',
         'task1': 'Blend Specialist- Blend titanium parts to specified work instruction.',
         'task2': 'Pneumatic hand tools- Work and understand all basic pneumatic forms of Dremel’s,',
         'task3': 'ninety-degree grinders, orbital sanders, and three-inch grinders.',
@@ -59,6 +62,7 @@ def about_me(request):
     work4 = {
         'companyName': 'Excel Industries',
         'dates': 'May 2013 to July 2018',
+        'role': 'Fabricator/Welder',
         'task1': 'Fabrication experience- Roller, Folding Table, Triumph Laser, ATC Amada Brake Press, and Amada Brake Press. Creation of Standards, Safety, and Preventive Maintenance in Fabrication.',
         'task2': 'Weld Experience- Tack Jig Welder, Robot Welder, and grinder. Checking quality of welds to prints. Creation of standards, safety, and preventive maintenance in weld cells.',
         'task3': 'Assembly- Follow prints to build specific units. Read and follow standards. Adhere to all safety rules and regulations.',
