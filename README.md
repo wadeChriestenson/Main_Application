@@ -34,7 +34,7 @@ whitenoise==6.0.0
 - wsgi.py - (used for more server settings)
 ## ***_config.yml***
 - Config file for github-pages. ( themes and config for host)
-## ***Resume*** - Front-End Directory
+## ***Resume*** - Front-End Directory.
 - __init__.py
 - admin.py - (set admin settings for django admin panel)- not in use
 - apps.py - (unsure of use) - not in use
