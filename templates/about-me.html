@@ -103,11 +103,11 @@
     </ul>
 </div>
     <div class="skills">
- {% autoescape off %}
+{# {% autoescape off %}#}
   {{ T_skills | safe }}
-          {{ S_skills | safe }}
+     {{ S_skills | safe }}
   {{ M_skills | safe }}
- {% endautoescape %}
+{# {% endautoescape %}#}
     <div class="learnAbout">
         <h4 class="learn">Learn About Me</h4>
         <h5 class="i">Phone: {{ learnAbout.phone }}</h5>
