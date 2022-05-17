@@ -10,7 +10,7 @@ def about_me(request):
     info = {
         'favicon': 'https://raw.githubusercontent.com/wadeChriestenson/Resume/main/assets/img/resume-100x100.png',
         'name': 'Wade Chriestenson',
-        'hello': 'Hello World!!!',
+        'hello': 'Django Developer | Frontend Developer',
         'email': 'wade@wadeprojects.io',
         'emailLink': 'mailto:wade@wadeprojects.io',
         'emailPic': 'https://raw.githubusercontent.com/wadeChriestenson/Resume/main/assets/img/email.png',
